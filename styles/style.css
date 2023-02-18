@@ -1,3 +1,9 @@
 h1{
     color: lightseagreen;
 }
+.jdm-background{
+    background-color: aquamarine !important;
+}
+.large-text{
+    font-size: 2em;
+}
