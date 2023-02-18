@@ -25,4 +25,17 @@ const topBrands = document.getElementsByClassName('top-brand');
 //     topBrands[i].style.padding = '10px 10px'
 // }
 
-)
+//* querySelectorAll()
+const brands = (document.querySelectorAll('.top-brand'))
+for(const brand of brands){
+    brand.style.fontSize = '30px';
+}
+
+const usaCars = document.querySelectorAll('.usa li');
+usaCars.forEach(usaCar => {
+    console.log(usaCar.innerText)
+})
+
+//* querySelector()
+document.querySelector('.top-brand').style.color = 'powderblue';
+document.querySelector('.usa #jeep').setAttribute('class', 'jeeeeeeeeeeeeeeeeeep')
