@@ -20,26 +20,43 @@
             remove the elements from the document</p>
     </article>
 
-    <ul>
-        <li>Porsche</li>
-        <li>BMW</li>
-        <li>Benz</li>
-        <li>Audi</li>
-        <li>Volksweagen</li>
-    </ul>
+    <section>
+        <h2 id="german-title">German car brands</h2>
+        <ul>
+            <li class="top-brand">Porsche</li>
+            <li>BMW</li>
+            <li>Benz</li>
+            <li>Audi</li>
+            <li>Volksweagen</li>
+        </ul>
+    </section>
+    <section>
+        <h2 id="japanese-title">Japanese car brands</h2>
+        <ul>
+            <li class="top-brand">Toyota</li>
+            <li>Nissan</li>
+            <li>Honda</li>
+            <li>Suzuki</li>
+            <li>Mazda</li>
+        </ul>
+    </section>
+    <section>
+        <h2 id="american-title">American car brands</h2>
+        <ul>
+            <li class="top-brand">Tesla</li>
+            <li>Ford</li>
+            <li>Mustang</li>
+            <li>GMC</li>
+            <li>Jeep</li>
+        </ul>
+    </section>
 
 
 
 
     <script src="JS/DOM.js"></script>
     <script>
-        const li = document.getElementsByTagName('li');
-        let i = 0;
-        while(i < li.length){
-            li[i].style.color = 'red';
-            console.log(li[i].innerText)
-            i++;
-        }
+        
     </script>
 </body>
 
