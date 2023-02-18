@@ -33,9 +33,40 @@ for(const brand of brands){
 
 const usaCars = document.querySelectorAll('.usa li');
 usaCars.forEach(usaCar => {
-    console.log(usaCar.innerText)
+    // console.log(usaCar.innerText)
 })
 
 //* querySelector()
-document.querySelector('.top-brand').style.color = 'powderblue';
-document.querySelector('.usa #jeep').setAttribute('class', 'jeeeeeeeeeeeeeeeeeep')
+document.querySelector('.top-brand').style.color = 'white';
+document.querySelector('.top-brand').style.fontWeight = '700';
+document.querySelector('.top-brand').style.backgroundColor = 'black';
+// document.querySelector('.usa #jeep').setAttribute('class', 'jeeeeeeeeeeeeeeeeeep')
+
+//* getAttribute()
+// console.log(document.querySelector('#jeep').getAttribute('id'))
+// console.log(document.querySelector('#jeep').getAttribute('class'))
+
+//* check the element's classes
+// console.log(document.querySelector('#jeep').classList)
+
+//* add class
+const classes = document.querySelector('#jeep');
+classes.classList.add('test4444444444')
+// console.log(document.querySelector('#jeep').classList)
+
+//* remove class
+classes.classList.remove('test1')
+// console.log(document.querySelector('#jeep').classList)
+
+//* replace class
+classes.classList.replace('test2', 'test5555555555555');
+// console.log(document.getElementById('jeep'))
+
+//* setAttribute()
+classes.setAttribute('title', 'Best SUV in USA')
+
+//* innerHTML
+// console.log(document.getElementsByClassName('japan')[0].innerHTML = '<h1>DOM element can replace using innerHTML</h1>')
+
+//* innerText
+// console.log(document.getElementsByClassName('japan')[0].innerText)
