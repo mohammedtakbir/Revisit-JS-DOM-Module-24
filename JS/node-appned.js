@@ -15,12 +15,12 @@
 
 //* createElement();
 const usa = document.querySelector('.usa').childNodes[3];
-const li = document.createElement('li');
-const li2 = document.createElement('li');
-li.innerText = 'This is new born li tag';
-li2.innerText = 'Second born li tag';
-usa.appendChild(li);
-usa.appendChild(li2)
+// const li = document.createElement('li');
+// const li2 = document.createElement('li');
+// li.innerText = 'This is new born li tag';
+// li2.innerText = 'Second born li tag';
+// usa.appendChild(li);
+// usa.appendChild(li2)
 
 //* parentNode
-console.log(usa.parentNode.parentNode.parentNode.parentNode)
+// console.log(usa.parentNode.parentNode.parentNode.parentNode)
